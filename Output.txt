@@ -1,0 +1,162 @@
+
+Note: The Polynomials must be provided in its standard form.
+Enter the 1st Polynomial
+3x 2 - 4x + 7
+3.0,2  -4.0,1  7.0,0  ---->LinkedList Representation
+Enter the 2nd Polynomial
+9x + 2
+9.0,1  2.0,0  ---->LinkedList Representation
+The sum of two polynomials is
+3.0,2  5.0,1  9.0,0  ---->LinkedList Representation
+3.0x2+5.0x1+9.0x0---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+9x + 2
+9.0,1  2.0,0  ---->LinkedList Representation
+Enter the 2nd Polynomial
+3x 2 - 4x + 7
+3.0,2  -4.0,1  7.0,0  ---->LinkedList Representation
+The sum of two polynomials is
+3.0,2  5.0,1  9.0,0  ---->LinkedList Representation
+3.0x2+5.0x1+9.0x0---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+x
+1.0,1  ---->LinkedList Representation
+Enter the 2nd Polynomial
+x
+1.0,1  ---->LinkedList Representation
+The sum of two polynomials is
+2.0,1  ---->LinkedList Representation
+2.0x1---->Resultant Polynomial
+Want more calculations[y/n]
+y\
+Enter the 1st Polynomial
+9x
+9.0,1  ---->LinkedList Representation
+Enter the 2nd Polynomial
+100x
+100.0,1  ---->LinkedList Representation
+The sum of two polynomials is
+109.0,1  ---->LinkedList Representation
+109.0x1---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+100x2+200x+300
+100.0,2  200.0,1  300.0,0  ---->LinkedList Representation
+Enter the 2nd Polynomial
+100x+10
+100.0,1  10.0,0  ---->LinkedList Representation
+The sum of two polynomials is
+100.0,2  300.0,1  310.0,0  ---->LinkedList Representation
+100.0x2+300.0x1+310.0x0---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+0
+0.0,0  ---->LinkedList Representation
+Enter the 2nd Polynomial
+0
+0.0,0  ---->LinkedList Representation
+The sum of two polynomials is
+0.0,0  ---->LinkedList Representation
+0.0x0---->Resultant Polynomial
+Want more calculations[y/n]
+100x100
+Invalid Input
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+100x100
+100.0,100  ---->LinkedList Representation
+Enter the 2nd Polynomial
+200x100
+200.0,100  ---->LinkedList Representation
+The sum of two polynomials is
+300.0,100  ---->LinkedList Representation
+300.0x100---->Resultant Polynomial
+Want more calculations[y/n]
+x2
+Invalid Input
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+29x3-100
+29.0,3  -100.0,0  ---->LinkedList Representation
+Enter the 2nd Polynomial
+32x
+32.0,1  ---->LinkedList Representation
+The sum of two polynomials is
+29.0,3  -100.0,0  32.0,1  ---->LinkedList Representation
+29.0x3-100.0x0+32.0x1---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+x
+1.0,1  ---->LinkedList Representation
+Enter the 2nd Polynomial
+x2
+1.0,2  ---->LinkedList Representation
+The sum of two polynomials is
+1.0,1  1.0,2  ---->LinkedList Representation
+1.0x1+1.0x2---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+x123
+1.0,123  ---->LinkedList Representation
+Enter the 2nd Polynomial
+x23
+1.0,23  ---->LinkedList Representation
+The sum of two polynomials is
+1.0,123  1.0,23  ---->LinkedList Representation
+1.0x123+1.0x23---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+100000x1000000
+100000.0,1000000  ---->LinkedList Representation
+Enter the 2nd Polynomial
+99x1000000
+99.0,1000000  ---->LinkedList Representation
+The sum of two polynomials is
+100099.0,1000000  ---->LinkedList Representation
+100099.0x1000000---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+231x213
+231.0,213  ---->LinkedList Representation
+Enter the 2nd Polynomial
+21x21
+21.0,21  ---->LinkedList Representation
+The sum of two polynomials is
+231.0,213  21.0,21  ---->LinkedList Representation
+231.0x213+21.0x21---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+21
+21.0,0  ---->LinkedList Representation
+Enter the 2nd Polynomial
+32
+32.0,0  ---->LinkedList Representation
+The sum of two polynomials is
+53.0,0  ---->LinkedList Representation
+53.0x0---->Resultant Polynomial
+Want more calculations[y/n]
+y
+Enter the 1st Polynomial
+2323x2+23x1+213
+2323.0,2  23.0,1  213.0,0  ---->LinkedList Representation
+Enter the 2nd Polynomial
+313x1+100
+313.0,1  100.0,0  ---->LinkedList Representation
+The sum of two polynomials is
+2323.0,2  336.0,1  313.0,0  ---->LinkedList Representation
+2323.0x2+336.0x1+313.0x0---->Resultant Polynomial
+Want more calculations[y/n]
+n
