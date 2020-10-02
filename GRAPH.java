@@ -1,6 +1,13 @@
-package first;import java.util.*;
+import java.util.*;
+//Author:-Akash Upadhyay
+//Email:-upadhyayakash2002@gmail.com
+//github: https://github.com/Spectre-ak
+/*
+The following file contains the most of the graph algorithms simplified and implemented in java
+Before using the code do edit the input format in the main method
+*/
 //directed & undirected and weighted graph
-//bfs,dfs,dijkatra,bellman-ford,shortest_path_between 2 nodes
+//bfs,dfs,dijkatra,bellman-ford,krukal,prims,MST,shortest_path_between 2 nodes,is there a path between two nodes or vertices
 //bellman ford(o(ev)) &&& dijkatra(o(vloge))
 //kruskal_mst(O(elogv)) and prims_mst(O(elogv))
 public class GRAPH{
