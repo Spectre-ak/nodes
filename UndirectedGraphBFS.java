@@ -40,9 +40,10 @@ public class UndirectedGraphBFS {
 	}
 
 	private static void addEdges(int src, int des) {
-		// adding edges even when user inputs same previously added edge
+		// adding edges with possibility of duplicates 
 		// go for direct adding when user is not going to
-		// provide any same edge twice
+		// provide any same edge twice 
+		//for directed graph just remove the second if-else block
 		if (!adjacentList[src - 1].contains(des - 1)) {
 			adjacentList[src - 1].add(des - 1);
 		} else
