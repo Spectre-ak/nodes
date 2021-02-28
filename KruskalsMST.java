@@ -1,5 +1,12 @@
-package Graphs;
+/*
+* Author: Akash Upadhyay
+* Email: upadhyayakash2002@gmail.com
+*/
 
+//Minimum Spanning Tree Kruskal Algorithm
+//Approx Time Complexity: O(nlogn)
+
+//Using HashMap for storing edges weights and PriorityQueue for retrieving edges with minimum weights.
 import java.util.*;
 
 public class KruskalsMST {
@@ -54,17 +61,11 @@ public class KruskalsMST {
 			EdgeWithMinimumWeight edgeWMW=pqWithMinimumWeights.remove();
 			int src=edgeWMW.src;
 			int des=edgeWMW.des;
-			System.out.println("pq res  "+src+" "+des+" "+edgeWMW.weight);
 			//find_set(src/u) operation -- retrieving connected vertices of this vertex as a set
 			Set<Integer> srcSetOfConnectedVertices=hashMapForEachVertexSet.get(src);
 			//find_set(des/v) operation
 			Set<Integer> desSetOfConnectedVertices=hashMapForEachVertexSet.get(des);
 
-			System.out.println("cccc");
-			System.out.println(srcSetOfConnectedVertices);
-			System.out.println(desSetOfConnectedVertices);
-			System.out.println("ccccc");
-			
 			boolean isSetsDisjointResult=isSetsDisjoint(srcSetOfConnectedVertices,desSetOfConnectedVertices);
 			if(isSetsDisjointResult) {
 				mstTreeList.add(src+"-"+des);
@@ -76,7 +77,7 @@ public class KruskalsMST {
 			}
 		}
 		
-		System.out.println(mstTreeList);
+		System.out.println(mstTreeList);//contains the MST edges
 		
 	}
 	
