@@ -36,7 +36,9 @@ public class RedBlackTree {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Node root = new Node(null, 50, Color.BLACK);
+		//Root node is always black
+		int rootNodeVal=50;
+		Node root = new Node(null, rootNodeVal, Color.BLACK);
 
 		while (true) {
 			System.out.println("enter the node to add in the tree");
