@@ -1,4 +1,13 @@
 
+/* <i>One of the best data structure</i> */
+
+/*
+In Worst case:
+	insert O(logN)
+	delete O(logN)
+	search O(logN)
+*/
+
 import java.awt.Color;
 import java.util.Scanner;
 
