@@ -5,11 +5,9 @@ import java.io.Serializable;
 
 import Trees.RedBlackTree.Node;
 
-
-
 /**
  * 
- * @author Akash Upadhyay
+ * @author Akash Upadhyay upadhyayakash2002@gmail.com
  * Generic red black tree which is Serializable
  * @param <T>
  */
@@ -35,9 +33,7 @@ public  class RedBlackTreeX<T extends Comparable<T>> implements Serializable{
 			this.parent = parent;
 			this.data=data;
 			this.color = color;
-		}
-
-			
+		}		
 	}
 	
 	/**
