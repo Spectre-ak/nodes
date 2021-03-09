@@ -7,3 +7,4 @@
 
 #### Red Black Tree [->](https://github.com/Spectre-ak/nodes/blob/master/RedBlackTree.java)
 
+#### Generic Red Black Tree [->](https://github.com/Spectre-ak/nodes/blob/master/RedBlackTreeX.java)
