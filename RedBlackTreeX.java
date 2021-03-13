@@ -42,6 +42,11 @@ public  class RedBlackTreeX<T extends Comparable<T>> implements Serializable{
 	private Node<T> root;
 	
 	/**
+	 * List for storing the tree in order
+	 */
+	private List<T> inorderList;
+	
+	/**
 	 * setting root which will get update on rotations
 	 * @param parent
 	 * @param data
@@ -324,6 +329,26 @@ public  class RedBlackTreeX<T extends Comparable<T>> implements Serializable{
 			return PerformBinarySearch(data, node.left);
 		else
 			return PerformBinarySearch(data, node.right);
+	}
+	
+	/**
+	 * This method returns the tree in order (increasing) 
+	 * @return Returns a list
+	 */
+	public List<T> getTreeAsList() {
+		inorderList=new LinkedList<>();
+		addToListInorder(this.root);
+		return inorderList;
+	}
+	/**
+	 * Private method for adding the tree to the list
+	 * @param root
+	 */
+	private void addToListInorder(Node<T> root) {
+		if(root==null)return;
+		addToListInorder(root.left);
+		inorderList.add(root.data);
+		addToListInorder(root.right);
 	}
 
 }
