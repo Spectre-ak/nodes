@@ -1,9 +1,5 @@
-package Trees;
-
+import java.util.*;
 import java.awt.Color;
-import java.io.Serializable;
-
-import Trees.RedBlackTree.Node;
 
 /**
  * 
@@ -11,7 +7,7 @@ import Trees.RedBlackTree.Node;
  * Generic red black tree which is Serializable
  * @param <T>
  */
-public  class RedBlackTreeX<T extends Comparable<T>> implements Serializable{
+public  class RedBlackTreeX<T extends Comparable<T>>{
 
 	/**
 	 * Using static class as node to be added in the tree
